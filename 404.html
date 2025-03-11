@@ -1,0 +1,322 @@
+<?php
+    include "admin/conn.php";
+
+    //fetch settings
+    $settings = mysqli_query($con,"SELECT * FROM settings");
+    $setting  = mysqli_fetch_array($settings);
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>YeBen | Error 404</title>
+    <!-- Stylesheets -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Yantramanav:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/logo/yebenlogo.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/logo/yebenlogo.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <!-- Preloader -->
+        <div class="loader-wrap">
+            <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+            <div class="layer layer-one"><span class="overlay"></span></div>
+            <div class="layer layer-two"><span class="overlay"></span></div>        
+            <div class="layer layer-three"><span class="overlay"></span></div>        
+        </div>
+
+        <!-- Main Header -->
+        <header class="main-header header-style-one">
+            <!-- Header Top -->
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="left-column">
+                            <ul class="social-icon">
+                                <li><a target="blank" href="<?php echo $setting['facebook']; ?>"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a target="blank" href="<?php echo $setting['twitter']; ?>"><i class="fab fa-twitter"></i></a></li>
+                                <li><a target="blank" href="<?php echo $setting['instagram']; ?>"><i class="fab fa-instagram"></i></a></li>
+                                <li><a target="blank" href="<?php echo $setting['youtube']; ?>"><i class="fab fa-youtube"></i></a></li>
+                            </ul>                        
+                        </div>
+                        <div class="right-column">
+                            <div class="auto-container">
+                                <font color="white">Location : 4Kilo Campus</font>
+                            </div>
+                            <div class="phone-number"><i class="flaticon-calling"></i><a href="tel:<?php echo $setting['phone']; ?>"><?php echo $setting['phone']; ?></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Upper with Transparent Background -->
+            <div class="header-upper" style="background: rgba(0, 0, 0, 0.3);">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <!-- Logo -->
+                        <div class="logo-box">
+                            <div class="logo">
+                                <a href="index.php">
+                                    <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right-column">
+                            <div class="nav-outer">
+                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+                                <nav class="main-menu navbar-expand-md navbar-light">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation">
+                                            <li class="dropdown"><a href="index.php">Home</a></li>
+                                            <li class="dropdown"><a href="service.php">Services</a></li>
+                                            <li class="dropdown"><a href="blog.php">News</a></li>
+                                            <li class="dropdown"><a href="about.php">About Us</a></li>
+                                            <li><a href="contact.php">Contact Us</a></li>
+                                            <li class="dropdown"><a href="faq.php">FAQ</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>                 
+                        </div>                        
+                    </div>
+                </div>
+            </div><!-- End Header Upper -->
+
+            <!-- Sticky Header with Transparent Background -->
+            <div class="sticky-header" style="background: rgba(0, 0, 0, 0.3);">
+                <div class="header-upper">
+                    <div class="auto-container">
+                        <div class="inner-container">
+                            <div class="logo-box">
+                                <div class="logo">
+                                    <a href="index.php">
+                                        <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="right-column">
+                                <div class="nav-outer">
+                                    <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+                                    <nav class="main-menu navbar-expand-md navbar-light">
+                                    </nav>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Sticky Header -->
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <div class="menu-backdrop"></div>
+                <div class="close-btn"><span class="icon flaticon-remove"></span></div>
+                
+                <nav class="menu-box">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu-outer"></div>
+                </nav>
+            </div><!-- End Mobile Menu -->
+
+            <div class="nav-overlay">
+                <div class="cursor"></div>
+                <div class="cursor-follower"></div>
+            </div>
+
+        </header><!-- End Main Header -->
+
+        <!-- Add CSS for the Transparent Navigation Bar -->
+        <style>
+            .main-header {
+                position: relative;
+            }
+
+            .header-top {
+                background: #000;
+                color: white;
+            }
+
+            .header-upper, .sticky-header {
+                background: rgba(0, 0, 0, 0.3) !important; /* Transparent black background */
+                box-shadow: none; /* Removes any shadow effect */
+            }
+
+            .header-upper .logo, .sticky-header .logo {
+                max-width: 200px;
+                height: auto;
+            }
+
+            .main-menu {
+                padding: 0;
+                margin: 0;
+            }
+
+            .navigation li a {
+                color: #fff; /* White text color for the navigation links */
+            }
+
+            .navigation li a:hover {
+                color: #ccc; /* Change color on hover */
+            }
+
+            /* For mobile nav toggler */
+            .mobile-nav-toggler img {
+                width: 30px;
+            }
+        </style>
+
+        <!-- Hidden Sidebar -->
+        <section class="hidden-sidebar close-sidebar">
+            <div class="wrapper-box">
+                <div class="content-wrapper">
+                    <div class="hidden-sidebar-close"><span class="flaticon-remove"></span></div>
+                    <div class="text-widget sidebar-widget">
+
+                        <!-- ----Logo Start----- -->
+                        <div class="logo">
+                            <a href="index.php">
+                                <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                            </a>
+                        </div>
+
+                        <style>
+                            .logo img {
+                                max-width: 100%;      /* Makes the image scale to fit within the container */
+                                height: auto;         /* Maintains the aspect ratio */
+                                display: block;       /* Removes any space below the image */
+                                object-fit: contain;  /* Ensures the image is scaled and maintains aspect ratio */
+                            }
+
+                            /* Optional: You can adjust the size of the container too */
+                            .logo {
+                                width: 200px;        /* Set the width of the logo container */
+                                height: auto;        /* Adjust height based on image aspect ratio */
+                                overflow: hidden;    /* In case the image overflows */
+                            }
+                        </style><!-- -----Logo End------ -->
+                        <div class="text">Service above self</div>
+                    </div>
+
+                    <!-- PDF Widget -->
+                    <div class="pdf-widget sidebar-widget">
+                        <div class="row">
+                            <div class="col-sm-6 column">
+                                <div class="content">
+                                    <div class="icon"><img src="assets/images/icons/icon-8.png" alt=""></div>
+                                    <h4>Sender <br> Instructions</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 column">
+                                <div class="content">
+                                    <div class="icon"><img src="assets/images/icons/icon-8.png" alt=""></div>
+                                    <h4>Sender <br> Instructions</h4>
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <!-- Contact Widget -->
+                    <div class="contact-widget">
+                        <div class="icon-box">  
+                            <div class="icon"><span class="flaticon-cursor"></span></div>
+                            <div class="text">Ethiopia, Addis Ababa, 4kilo</div>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><span class="flaticon-calling"></span></div>
+                            <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">+251987654321</a></div>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><span class="flaticon-mail"></span></div>
+                            <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">yeben@gmail.com</a></div>
+                        </div>
+                    </div>
+
+                    <!-- Link Btn -->
+                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i>Purchase Our Class</span></a></div>
+                </div>
+            </div>
+        </section>
+            
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
+            <div class="popup-inner">
+                <div class="overlay-layer"></div>
+                <div class="search-form">
+                    <form method="post" action="http://st.ourhtmldemo.com/new/Yeben2/index.html">
+                        <div class="form-group">
+                            <fieldset>
+                                <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                                <input type="submit" value="Search Now!" class="theme-btn">
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Page -->
+        <section class="error-page">
+            <div class="sec-bg" style="background-image: url(assets/images/post/meeting.jpg);"></div>
+            <div class="auto-container">
+                <div class="content text-center" style="background-image: url(assets/images/background/bg-21.jpg);">
+                    <div class="error-image"><img src="assets/images/resource/404.png" alt=""></div>
+                    <h2>Sorry this page isn't available</h2>
+                    <p>We're not being able to find the page you're looking for</p>
+                    <div class="read-more-link text-center">
+                        <a href="index.php" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Back to Home</span></a>
+                    </div>
+                </div>            
+            </div>
+        </section> 
+            
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="row m-0 align-items-center justify-content-between">
+                    <div class="copyright-text">&copy; <script>document.write(new Date().getFullYear());</script> <a target="blank" href=""> YeBen</a></div>
+                    <ul class="menu">
+                        <a href="privacy.php"> Privacy Policies </a>
+                        <a href="terms.php">|  Terms & Conditions </a>
+                        <a href="contact.php">|  Contact Us </a>
+                    </ul>                
+                </div>            
+            </div>
+        </div><!--End pagewrapper-->
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-6"></span></div>
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/jquery.fancybox.js"></script>
+        <script src="assets/js/isotope.js"></script>
+        <script src="assets/js/owl.js"></script>
+        <script src="assets/js/appear.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/lazyload.js"></script>
+        <script src="assets/js/scrollbar.js"></script>
+        <script src="assets/js/TweenMax.min.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/jquery.polyglot.language.switcher.js"></script>
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <script src="assets/js/parallax-scroll.js"></script>
+        <script src="assets/js/script.js"></script>
+
+    </body>
+</html>

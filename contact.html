@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Yeben2/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jan 2021 08:08:09 GMT -->
+<head>
+<meta charset="utf-8">
+<title>YeBen | Contact</title>
+<!-- Stylesheets -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+<!-- Color File -->
+<link href="assets/css/color.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Yantramanav:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/images/logo/yebenlogo.png" type="image/x-icon">
+<link rel="icon" href="assets/images/logo/yebenlogo.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="loader-wrap">
+        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>        
+        <div class="layer layer-three"><span class="overlay"></span></div>        
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header header-style-one">
+
+        <!-- Header Top -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="left-column">
+                        <ul class="social-icon">
+                            <li><a target="blank" href="<?php echo $setting['facebook']; ?>"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a target="blank" href="<?php echo $setting['twitter']; ?>"><i class="fab fa-twitter"></i></a></li>
+                            <li><a target="blank" href="<?php echo $setting['instagram']; ?>"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="blank" href="<?php echo $setting['youtube']; ?>"><i class="fab fa-youtube"></i></a></li>
+                        </ul>                        
+                    </div>
+                    <div class="right-column">
+                        <div class="auto-container">
+                            <font color="white">Location : 4Kilo Campus</font>
+                        </div>
+                        <div class="phone-number"><i class="flaticon-calling"></i><a href="tel:<?php echo $setting['phone']; ?>"></a><?php echo $setting['phone']; ?></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Header Upper with Transparent Background -->
+        <div class="header-upper" style="background: rgba(0, 0, 0, 0.3);">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <!-- Logo -->
+                    <div class="logo-box">
+                        <div class="logo">
+                            <a href="index.php">
+                                <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-column">
+                        <div class="nav-outer">
+                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation">
+                                        <li class="dropdown"><a href="index.php">Home</a></li>
+                                        <li class="dropdown"><a href="service.php">Services</a></li>
+                                        <li class="dropdown"><a href="blog.php">News</a></li>
+                                        <li class="dropdown"><a href="about.php">About Us</a></li>
+                                        <li><a href="contact.php">Contact Us</a></li>
+                                        <li class="dropdown"><a href="faq.php">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>                
+                    </div>                        
+                </div>
+            </div>
+        </div><!-- End Header Upper -->
+    
+        <!-- Sticky Header with Transparent Background -->
+        <div class="sticky-header" style="background: rgba(0, 0, 0, 0.3);">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="logo-box">
+                            <div class="logo">
+                                <a href="index.php">
+                                    <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right-column">
+                            <div class="nav-outer">
+                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+                                <nav class="main-menu navbar-expand-md navbar-light">
+                                </nav>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Sticky Header -->
+    
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-remove"></span></div>
+            
+            <nav class="menu-box">
+                <div class="logo">
+                    <a href="index.php">
+                        <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="menu-outer"></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+    
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    
+    </header><!-- End Main Header -->
+    <!-- End Main Header -->
+
+    <!-- Hidden Sidebar -->
+    <section class="hidden-sidebar close-sidebar">
+        <div class="wrapper-box">
+            <div class="content-wrapper">
+                <div class="hidden-sidebar-close"><span class="flaticon-remove"></span></div>
+                <div class="text-widget sidebar-widget">
+                    <!-- ----Logo Start----- -->
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="assets/images/logo/yebenlogo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <style>
+                        .logo img {
+                            max-width: 100%;      /* Makes the image scale to fit within the container */
+                            height: auto;         /* Maintains the aspect ratio */
+                            display: block;       /* Removes any space below the image */
+                            object-fit: contain;  /* Ensures the image is scaled and maintains aspect ratio */
+                        }
+
+                        /* Optional: You can adjust the size of the container too */
+                        .logo {
+                            width: 200px;        /* Set the width of the logo container */
+                            height: auto;        /* Adjust height based on image aspect ratio */
+                            overflow: hidden;    /* In case the image overflows */
+                        }
+                    </style><!-- -----Logo End------ -->
+                    <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresees the pain.</div>
+                </div>
+                <!-- PDF Widget -->
+                <div class="pdf-widget sidebar-widget">
+                    <div class="row">
+                        <div class="col-sm-6 column">
+                            <div class="content">
+                                <div class="icon"><img src="assets/images/icons/icon-8.png" alt=""></div>
+                                <h4>Sender <br> Instructions</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 column">
+                            <div class="content">
+                                <div class="icon"><img src="assets/images/icons/icon-8.png" alt=""></div>
+                                <h4>Sender <br> Instructions</h4>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+                <!-- Contact Widget -->
+                <div class="contact-widget">
+                    <div class="icon-box">
+                        <div class="icon"><span class="flaticon-cursor"></span></div>
+                        <div class="text">Ethiopia, Addis Ababa, 4Kilo</div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon"><span class="flaticon-calling"></span></div>
+                        <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">+251987654321</a></div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon"><span class="flaticon-mail"></span></div>
+                        <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">yeben@ggmail.com</a></div>
+                    </div>
+                </div>
+                <!-- Link Btn -->
+                <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i>Purchase Our Class</span></a></div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Search Popup-->
+    <div id="search-popup" class="search-popup">
+        <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
+        <div class="popup-inner">
+            <div class="overlay-layer"></div>
+            <div class="search-form">
+                <form method="post" action="http://st.ourhtmldemo.com/new/Yeben2/index.html">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="submit" value="Search Now!" class="theme-btn">
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="contact-map">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd" width="600" height="490" style="border:0; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.334200361063!2d38.7620148759954!3d9.0332469889205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8502038749b5%3A0xa6986120f0650f20!2zQUEgVW5pdmVyc2l0eSA0IEtpbG8gQ2FtcHVzIHwg4YqgLuGKoCDhi6nhipLhiajhiK3hiLLhibIgNCDhiqrhiI4g4Yqr4Yid4Y2T4Yi1!5e0!3m2!1sen!2set!4v1739215838684!5m2!1sen!2set" width="600" height="490" style="border:0; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+        </div>
+    </section> 
+    
+
+    <!-- Contact Info section two -->
+    <section class="contact-info-section-two">
+        <div class="auto-container">
+            <div class="nav-tabs-wrapper">
+                <div class="nav nav-tabs tab-btn-style-two">
+                    <!-- <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": false, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "992":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
+                        <ul class="item">
+                            <li><a class="active" data-toggle="tab" href="#tab-one">
+                                <h4>Hoxton - HO</h4>
+                            </a></li>
+                        </ul>
+                        <ul class="item">
+                            <li><a data-toggle="tab" href="#tab-two">
+                                <h4>Melbourne</h4>
+                            </a></li>
+                        </ul>
+                        <ul class="item">
+                            <li><a data-toggle="tab" href="#tab-three">
+                                <h4>Houston</h4>
+                            </a></li>
+                        </ul>
+                        <ul class="item">
+                            <li><a class="active" data-toggle="tab" href="#tab-four">
+                                <h4>Hoxton - HO</h4>
+                            </a></li>
+                        </ul>
+                        <ul class="item">
+                            <li><a data-toggle="tab" href="#tab-five">
+                                <h4>Melbourne</h4>
+                            </a></li>
+                        </ul>
+                        <ul class="item">
+                            <li><a data-toggle="tab" href="#tab-six">
+                                <h4>Houston</h4>
+                            </a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-pane fadeInUp animated" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="outer-box">
+                                <h4><span class="flaticon-cursor"></span>Ethiopia, Addis Ababa, 4Kilo</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="wrapper-box">
+                                            <div class="icon-box">
+                                                <div class="icon"><span class="flaticon-calling"></span></div>
+                                                <div class="text-area">
+                                                    <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">+251987654321</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="icon-box">
+                                                <div class="icon"><span class="flaticon-mail"></span></div>
+                                                <div class="text-area">
+                                                    <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">info@Yeben.com</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-mail"></span></div>
+                                            <div class="text-area">
+                                                <div class="text"><strong>Mon - Friday</strong>08.00 am to 9.00pm</div>
+                                                <div class="text"><strong>Saturday</strong>10.00 am to 4.00pm</div>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sec-title">
+                                <div class="sub-title">Get a Quote</div>
+                                <h2>Start Your New life</h2>
+                            </div>
+                            <div class="text">Indignation and dislike men who are so beguiled & demoralized by <br> the charms of pleasure of the moment.</div>
+                            <div class="link">
+                                <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fadeInUp animated active" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="outer-box">
+                                <h4><span class="flaticon-cursor"></span>Ethiopia, Addis Ababa, 4Kilo</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="wrapper-box">
+                                            <div class="icon-box">
+                                                <div class="icon"><span class="flaticon-calling"></span></div>
+                                                <div class="text-area">
+                                                    <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">+251987654321</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="icon-box">
+                                                <div class="icon"><span class="flaticon-mail"></span></div>
+                                                <div class="text-area">
+                                                    <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">info@Yeben.com</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-mail"></span></div>
+                                            <div class="text-area">
+                                                <div class="text"><strong>Mon - Friday</strong>08.00 am to 9.00pm</div>
+                                                <div class="text"><strong>Saturday</strong>10.00 am to 4.00pm</div>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sec-title">
+                                <div class="sub-title">Get a Quote</div>
+                                <h2>Start Your Shipping</h2>
+                            </div>
+                            <div class="text">Indignation and dislike men who are so beguiled & demoralized by <br> the charms of pleasure of the moment.</div>
+                            <div class="link">
+                                <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section class="contact-form-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Drop a line</div>
+                <h2>We’re Always Here for You</h2>
+                <div class="text">Please do not hesitate to contact us if you require further information about our logisitc service.</div>
+            </div>
+            <!--Contact Form-->
+            <div class="contact-form">
+                <form method="post" action="http://st.ourhtmldemo.com/new/Yeben2/inc/sendemail.php" id="contact-form">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input type="text" name="form_name" value="" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" name="company_name" value="" placeholder="Company Name" required>
+                        </div>                        
+                        <div class="form-group col-md-4">
+                            <input type="text" name="email" value="" placeholder="Your Email" required>
+                        </div>                        
+                        <div class="form-group col-md-4">
+                            <input type="text" name="form_phone" value="" placeholder="PHone Num" required>
+                        </div>                        
+                        <div class="form-group col-md-4">
+                            <select class="selectpicker" name="form_subject">
+                                <option value="*">Enquire About</option>
+                                <option value=".category-1">About Company </option>
+                                <option value=".category-3">Leadership Team</option>
+                                <option value=".category-4">Global Networks</option>
+                            </select>
+                        </div>                        
+                        <div class="form-group col-md-12">
+                            <textarea name="form_message" placeholder="Massage"></textarea>
+                        </div>                        
+                        <div class="form-group text-center col-md-12">
+                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                            <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span><i class="flaticon-up-arrow"></i>Send Message</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--End Contact Form-->
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+<section class="newsletter-section style-two">
+    <div class="auto-container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h3><span class="flaticon-email"></span> Subscribe Our Newsletter <br> & Get Updates.</h3>
+            </div>
+            <div class="col-lg-7">
+                <div class="newsletter-form">
+                    <form action="subscribe.php" method="post">
+                        <div class="form-group">
+                            <i class="far fa-envelope-open"></i>
+                            <input type="email" placeholder="Enter Your Email Address..."  name="email">
+                            <button type="submit" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow" name="submit"></i>Subscribe</span></button>
+                            <label class="subscription-label" for="subscription-email"></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>        
+</section>
+
+<!--Main Footer-->
+<footer class="main-footer">
+    <div class="upper-box">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="widget contact-widget style-two">
+                        <h4>Do You Have Any Question? Please <br> Contact Our Team</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="wrapper-box">
+                                    <div class="icon-box">
+                                        <div class="icon"><span class="flaticon-calling"></span></div>
+                                        <div class="text"><strong>Phone</strong><a href="tel:<?php echo $setting['phone']; ?>"><?php echo $setting['phone']; ?></a></div>
+                                    </div>
+                                    <div class="icon-box">
+                                        <div class="icon"><span class="flaticon-mail"></span></div>
+                                        <div class="text"><strong>Email</strong><a href="mail:<?php echo $setting['email']; ?>"><?php echo $setting['email']; ?></a></div>
+                                    </div>
+                                    <ul class="social-icon">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="icon-box">
+                                    <div class="icon"><span class="flaticon-mail"></span></div>
+                                    <div>
+                                        <div class="text"><strong>Mon - Friday</strong>08.00 am to 9.00pm</div>
+                                        <div class="text"><strong>Saturday</strong>10.00 am to 4.00pm</div>
+                                        <div class="text"><span>Sunday-Closed</span></div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="widget links-widget">
+                                <h4 class="widget_title">Useful Links</h4>
+                                <div class="widget-content">
+                                    <ul class="list">
+                                        <li><a href="about.php">About Company</a></li>
+                                        <li><a href="contact.php">Get In Touch</a></li>
+                                        <li><a href="service.php">Our Services</a></li>
+                                        <li><a href="blog.php">Blogs & News</a></li>
+                                        <li><a href="privacy.php">Privacy Policies</a></li>
+                                        <li><a href="terms.php">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6">
+                            <div class="widget instagram-widget">
+                                <h4 class="widget_title">Our Gallery</h4>
+                                <div class="wrapper-box">
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-1.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-2.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-3.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-4.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-5.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="assets/images/gallery/gallery-6.jpg" alt="">
+                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>               
+</footer>
+<!--End Main Footer-->
+
+<div class="footer-bottom">
+    <div class="auto-container">
+        <div class="row m-0 align-items-center justify-content-between">
+            <!-- <div class="copyright-text">Copyright © 2021 <?php echo $setting['site_name']; ?> | Designed By <a target="blank" href="https://www.actwebspace.com"> ACT Web Space</a></div> -->
+            <div class="copyright-text">&copy; <script>document.write(new Date().getFullYear());</script> <a target="blank" href=""> YeBen</a></div>
+                <ul class="menu">
+                    <a href="privacy.php"> Privacy Policies </a>
+                    <a href="terms.php">|  Terms & Conditions </a>
+                    <a href="contact.php">|  Contact Us </a>
+                </ul>                
+            </div>            
+        </div>
+    </div>
+</div><!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-6"></span></div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/lazyload.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.polyglot.language.switcher.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/parallax-scroll.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+
+</body>
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Yeben2/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jan 2021 08:08:10 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

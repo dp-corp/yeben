@@ -1,0 +1,181 @@
+    <!-- Statement 1 -->
+    <section class="statement-section pt-0">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image"><img src="assets/images/resource/image-35.jpg" alt=""></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content">  
+                        <div class="badge"><img src="assets/images/resource/badge-3.png" alt=""></div>
+                        <!-- Tab panes -->
+                        <div class="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Statstics</h2>
+                                    </div>
+                                    <div class="text"><ul>
+                                        <!-- <li>Life Transforming Trainings</li> -->
+                                        <li>
+                                            Life Transforming Trainings<br><br>
+                                            1. 8 total trainings, 540 stydents enrolled, Financial support<br>
+                                            2. 2/3 women.<br>
+                                            3. 20 students per year intake,<br>
+                                            4. 10 of the students are sponsored by YeBen the rest are by donors.<br>
+                                            5. In the last 7 year, woth one year interruption due to covid-19.<br>
+                                            6. YeBen students are totally 128, 85 female and 43 male.<br>
+                                            7. At the end of 2022/23 school year, 49 students have graduated<br>
+                                            8. Currently there are YeBen supported students YeBen Excellence Award.<br>
+                                            9. graduating awardees<br>
+                                        </li>
+                                        <!-- <li>To contribute to the growth of society as we grow the company’s business.</li> -->
+                                    </ul></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fadeInUp animated" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Our Objective</h2>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>We are home grown Endowment Fund, established in the memory of Dr. Benyam Assefa. </li>
+                                            <li>
+                                                # Equipping students with essential skills that they can not get in their classroom.<br>
+                                                # Ensuring that students from underprivileged backgrounds have access to higher education by providing financial assistance.<br>
+                                                # Assist college students through providing training and financial aid.<br>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Our values</h2>
+                                    </div>
+                                    <div class="text">
+                                        Equity <br>
+                                        Innovation <br>
+                                        Collaboration <br>
+                                        Empowerment <br> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs tab-btn-style-one" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="tab-one-area" data-toggle="tab" href="#tab-one" role="tab" aria-controls="tab-one" aria-selected="true">
+                                    <h4><i class="flaticon-up-arrow"></i>Statstics</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab-two-area" data-toggle="tab" href="#tab-two" role="tab" aria-controls="tab-two" aria-selected="true">
+                                    <h4><i class="flaticon-up-arrow"></i>Our Objective</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab-three-area" data-toggle="tab" href="#tab-three" role="tab" aria-controls="tab-three" aria-selected="false">
+                                    <h4><i class="flaticon-up-arrow"></i>Our values</h4>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" id="tab-four-area" data-toggle="tab" href="#tab-four" role="tab" aria-controls="tab-four" aria-selected="false">
+                                    <h4><i class="flaticon-up-arrow"></i>Value</h4>
+                                </a>
+                            </li> -->
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Statement 2-->
+    <section class="statement-section pt-0">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image"><img src="assets/images/resource/image-35.jpg" alt=""></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content">  
+                        <div class="badge"><img src="assets/images/resource/badge-3.png" alt=""></div>
+                        <!-- Tab panes -->
+                        <div class="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Vision</h2>
+                                    </div>
+                                    <div class="text"><ul>
+                                        <!-- <li>Life Transforming Trainings</li> -->
+                                        <li>
+                                        To empower every student to overcome financial barriers, unlock their potential through transformative education, and drive innovation that shapes a more equitable future.  
+                                        </li>
+                                        <!-- <li>To contribute to the growth of society as we grow the company’s business.</li> -->
+                                    </ul></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fadeInUp animated" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Mission</h2>
+                                    </div>
+                                    <div class="text">
+                                        <ul>
+                                            <li>We provide financial aid, life-changing training, and innovation grants to college students in need, equipping them with skills, confidence, and opportunities to thrive academically, professionally, and as change-makers.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
+                                <div class="text-block">
+                                    <div class="sec-title mb-30">
+                                        <div class="sub-title">YeBen</div>
+                                        <h2>Goals</h2>
+                                    </div>
+                                    <div class="text">
+                                    Financial Support <br>                          
+                                    Transformative Training <br>                          
+                                    Innovation Recognition <br>
+                                    Partnership Growth <br>                                   
+                                    Sustainable Impact <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs tab-btn-style-one" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="tab-one-area" data-toggle="tab" href="#tab-one" role="tab" aria-controls="tab-one" aria-selected="true">
+                                    <h4><i class="flaticon-up-arrow"></i>Vision</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab-two-area" data-toggle="tab" href="#tab-two" role="tab" aria-controls="tab-two" aria-selected="true">
+                                    <h4><i class="flaticon-up-arrow"></i>Mission</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab-three-area" data-toggle="tab" href="#tab-three" role="tab" aria-controls="tab-three" aria-selected="false">
+                                    <h4><i class="flaticon-up-arrow"></i>Goals</h4>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" id="tab-four-area" data-toggle="tab" href="#tab-four" role="tab" aria-controls="tab-four" aria-selected="false">
+                                    <h4><i class="flaticon-up-arrow"></i>Value</h4>
+                                </a>
+                            </li> -->
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
